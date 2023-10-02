@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #428c80;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ball {
+    border-radius: 50%;
+    background-color: #e07828;
+
+}
+
+.ball1 {
+    width: 200px;
+    height: 200px;
+    animation: bouncy 2s ease infinite;
+}
+
+.ball2 {
+    width: 80px;
+    height: 80px;
+    animation: bouncy 2s ease infinite;
+    animation-delay: 0.2s;
+}
+
+.ball3 {
+    width: 130px;
+    height: 130px;
+    animation: bouncy 2s ease infinite;
+    animation-delay: 0.4s;
+}
+
+.ball4 {
+    width: 40px;
+    height: 40px;
+    animation: bouncy 2s ease infinite;
+
+}
+
+.ball5 {
+    width: 100px;
+    height: 100px;
+    animation: bouncy 2.1s ease infinite;
+}
+
+@keyframes bouncy {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(900px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
